@@ -12,5 +12,10 @@ namespace WebBone.Controllers
         {
             return View();
         }
+
+        public ActionResult OpenContact()
+        {
+            return View("~/Views/Contact/ContactIndex.cshtml");
+        }
     }
 }

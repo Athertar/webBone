@@ -7,6 +7,8 @@
     <link href="~/MyStyles/TopLayout.css" rel="stylesheet" />
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
 </head>
 <body>
     <header>
@@ -16,15 +18,14 @@
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Design</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li>@Html.ActionLink("Contact", "OpenContact", "Main")</li>
                     <li><a href="#">About</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     @RenderBody()
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
+
     @RenderSection("scripts", required: false)
 </body>
 </html>
