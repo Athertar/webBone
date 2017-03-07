@@ -15,6 +15,10 @@ header {
 	height:100px;
 }
 
+#flight-pic {
+    float: left;
+}
+
 nav {
 	float: right;
 	padding: 25px 20px 0 0;
@@ -36,6 +40,9 @@ nav ul li a {
 	color: #ABABAB;
 	text-decoration: none !important;
 }
+
 nav ul li a:hover {
 	color: #555555;
 }
+
+
