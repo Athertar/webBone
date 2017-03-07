@@ -8,3 +8,28 @@ body {
     padding-top:0px !important;
     background-color: #909D99;
 }
+
+#placeholder {
+    background-color: #909D99;
+    height: 1000px;
+}
+
+.social-media {
+    background-color:#272727;
+    list-style-type: none;
+    text-align: center;
+    margin-bottom: -1.1%;
+}
+.social-media li {
+    display: inline;
+}
+
+.social-media i {
+    font-size: 500%;
+    margin: 1%;
+    padding: 3% 8% 3% 8%;
+    color: #5e5e5e;
+}
+.social-media i:hover {
+    color: #a9a9a9;
+}
